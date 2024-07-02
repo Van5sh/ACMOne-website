@@ -36,7 +36,7 @@ const About: React.FC = () => {
           "url('/aboutleft.svg'), url('/aboutdown.svg')",
         backgroundPosition:
           "left 85%, bottom right",
-        backgroundSize: "15%, 42%",
+        backgroundSize: "15%, 41%",
       }}
     >
       <Navbar logoColor="white" textColor="white" />
