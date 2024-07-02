@@ -20,7 +20,7 @@ const Home = () => {
         <button className="mt-4 md:px-6 md:py-2 bg-black text-white text-lg md:text-xl rounded-lg">
           <a href="/download" className="px-8 py-8">
             Download
-          </a>
+          </a>  
         </button>
       </div>
     </div>

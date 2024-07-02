@@ -30,15 +30,15 @@ const About: React.FC = () => {
   };
 
   return (
-    
     <div className="bg-gray-900 text-white min-h-screen flex flex-col bg-no-repeat"
-    style={{
-      backgroundImage:
-      " url('/aboutleft.svg'),url('/aboutdown.svg')",
-    backgroundPosition:
-    "left 85%, right 100%",
-    backgroundSize: "15%, 35%",
-}}>
+      style={{
+        backgroundImage:
+          "url('/aboutleft.svg'), url('/aboutdown.svg')",
+        backgroundPosition:
+          "left 85%, bottom right",
+        backgroundSize: "15%, 45%",
+      }}
+    >
       <Navbar logoColor="white" textColor="white" />
 
       <main className="flex-grow flex items-center justify-center relative">
@@ -53,7 +53,7 @@ const About: React.FC = () => {
         >
           ❮
         </button>
-        <div className="relative w-full max-w-3xl overflow-hidden">
+        <div className="relative w-full max-w-screen-xl overflow-hidden">
           <div
             className="flex transition-transform duration-300 ease-in-out"
             style={{ transform: `translateX(-${currentIndex * 100}%)` }}
@@ -73,7 +73,7 @@ const About: React.FC = () => {
                     className="object-contain"
                   />
                 </div>
-                <p className="text-white text-xl ml-8">{image.text}</p>
+                <p className="text-white text-lg md:text-xl ml-4 md:ml-8">{image.text}</p>
               </div>
             ))}
           </div>
