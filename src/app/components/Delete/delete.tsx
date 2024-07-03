@@ -61,8 +61,8 @@ const Delete: React.FC = () => {
       {showPopup && (
         <div className="fixed inset-0 bg-gray-800 bg-opacity-75 flex items-center justify-center">
           <div className="bg-white p-8 rounded-lg shadow-lg text-center">
-            <h2 className="text-2xl text-black font-bold mb-4">Successfully Deleted</h2>
-            <p className="mb-4 text-black">Your account has been successfully deleted.</p>
+            <h2 className="text-2xl text-black font-bold mb-4">Request Submitted</h2>
+            <p className="mb-4 text-black">Your form has been submitted. We shall process your delete request soon.</p>
             <button
               className="py-2 px-4 bg-black text-white font-semibold rounded-xl hover:bg-gray-800 focus:outline-none focus:ring focus:ring-gray-700"
               onClick={handleClosePopup}
